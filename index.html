@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="button_D.css">
+</head>
+<body>
+  
+    <div class="header"> <h1>Control Panel </h1> </div>
+    <form method="post" action="button_D.php">
+
+    <button class="button1" name="fo">Forward</button>
+    <button class="button2" name="ri">Right</button>
+    <button class="button3" name="ba">Backwared</button>
+    <button class="button4" name="le">Left</button>
+    <button class="button5" name="st">Stop</button>
+
+</form>
+    <div class="footer"> </div>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "417200e8-28b2-44b7-bd15-7c728dec9953", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "1dc40d3f-f82d-459b-9a21-ef24922b1064", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
+
+</body>
+</html>
