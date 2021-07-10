@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 25px;
+    text-align: center;
+    color: rgb(30, 170, 30);
+    font-size: 25px;
+}
+
+  .footer {
+    padding: 25px;
+    text-align: center;
+    background: #dddddd;
+    margin-top: 525px;
+  }
+  body{
+    background: rgb(112, 141, 122);
+    font-family: sans-serif;
+}
+
+.button5 {
+    border: none;
+    color: rgb(66, 182, 66);
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 280px;
+    left: 620px; 
+    border-radius: 4px;
+  }
+.button1 {
+    border: none;
+    color: rgb(66, 182, 66);
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 200px;
+    left: 600px; 
+    border-radius: 4px;
+  }
+  .button3 {
+    border: none;
+    color: rgb(66, 182, 66);
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 370px;
+    left: 600px; 
+    border-radius: 4px;
+  }
+  .button2 {
+    border: none;
+    color: rgb(66, 182, 66);
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 270px;
+    left: 750px;
+    border-radius: 4px; 
+  }
+  .button4 {
+    border: none;
+    color: rgb(66, 182, 66);
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 270px;
+    left: 470px;
+    border-radius: 4px; 
+  }
